@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-image: url("index.jpeg");
+            /*padding: 5px 0;*/
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #main {
+            width: 20%;
+            /*background: transparent;*/
+            padding: 25px 40px;
+            border: 1px solid;
+            border-radius: 5px;
+            margin: 150px auto;
+            opacity: 0.8;
+        }
+
+        .but {
+            background-color: mediumpurple; /* Green */
+            border: none;
+            color: white;
+            width: 100%;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            /*transition-duration: 0.04s;*/
+            transition: 10s;
+            margin: 20px 0;
+
+        }
+
+
+        /*.button1 {*/
+        /*    background-color: mediumpurple;*/
+        /*    color: black;*/
+        /*    border: 2px solid #4CAF50;*/
+        /*}*/
+
+        .but:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        input {
+            width: 100%;
+            /*opacity: 0.8;*/
+            /*filter: blur(0.5px);*/
+            /*backdrop-filter: blur(10px);*/
+            color: aliceblue;
+            font-size: 25px;
+
+            background: rgba(255, 255, 255, 0.2);
+        / / Make sure this color has an opacity of less than 1 backdrop-filter: blur(10 px);
+            padding: 10px 0;
+            margin:10px 0;
+
+
+            /*box-shadow:inset 0 1px 2px #ffff;*/
+            /*-moz-box-shadow:inset 0 1px 2px #000000;*/
+            /*-webkit-box-shadow:inset 0 1px 2px #000000;*/
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="main" style="backdrop-filter: blur(10px)">
+    <form style="margin:10px 0; "
+          action="/action_page.php" id="users"
+          action="#" method="post" target="_blank">
+        <h1>LOgIN</h1>
+        <input type="text" id="user" name="username" value="  username">
+        <br><br>
+        <input type="text" id="password" name="password" value="  password">
+        <br>
+        <br>
+        <button class="but button1">Click</button>
+
+    </form>
+    <p style="text-align: center"> Not a Member?<a href="http://f">Sing up</a>
+    
+    </p>
+
+</div>
+</body>
+</html>
